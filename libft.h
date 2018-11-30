@@ -90,5 +90,7 @@ void				ft_sort_integer_table(int *tab, int size);
 char				*ft_strcapitalize(char *str);
 void				ft_print_words_tables(char **tab);
 char				*ft_strjoinf(char *s1, char *s2);
+int					ft_atoi_base(const char *str, int str_base);
+char				*ft_itoa_base(int value, int base);
 
 #endif
